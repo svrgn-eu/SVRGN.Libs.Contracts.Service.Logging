@@ -1,11 +1,10 @@
 [TOC]
 
-# Overview
+# About
 
-This package is a collection of interfaces used by the free SVRGN libs. They include services for setting up easy logging or other services via Dependency Injection (DI). The libs themselves are DI Framework agnostic, although we offer a facade implementation of Microsoft Unity.
+This project provides some interfaces to implement an own logger. The idea is to have all of the implementation details in the class inheriting from ILogStrategy and combine different combinations of strategies in the ILogService implementation.
 
+Also see https://en.wikipedia.org/wiki/Strategy_pattern for the generic Design Pattern.
 
-
-# Links
-
-[Homepage](https://svrgn.eu)
+# How to use
+Use Cases and Examples
